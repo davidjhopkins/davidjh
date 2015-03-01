@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+html, body {
+  height:100%;
+}
+html {
+  font-family: 'Lato', sans-serif;
+  background:#6F385E;
+}
+body {
+  margin:0;
+}
+header {
+  height:75px;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding:0 35px;
+}
+.strapline {
+  font-size:32px;
+  font-family: 'Lato', sans-serif;
+  color:rgba(255,255,255,0.6);
+  font-weight:normal;
+  text-align:center;
+}
+.strapline a {
+  color:rgba(255,255,255,1);
+  text-decoration: none;
+}
+.strapline a:hover {
+  color:#fff;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top:55px;
+}
+.footer {
+  text-align: center;
+}
+.footer ul {
+  list-style:none;
+  padding:0;
+}
+.footer ul li {
+  display:inline;
+  margin:0 10px;
+}
+.footer ul li a {
+  font-size:16px;
+  text-decoration:none;
+  color:rgba(255,255,255,0.6);
+}
+.footer ul li a:hover {
+  color:rgba(255,255,255,1);
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  header {
+    height:150px;
+  }
+  .strapline {
+    font-size:40px;
+  }
+  footer {
+    position: fixed;
+    bottom:10px;
+    left:20px;
+    margin:0;
+  }
+}
+
+@media (min-width: 992px) {
+  .strapline {
+    font-size:46px;
+  }
+}
